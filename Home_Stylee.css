@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+}
+
+#Hero{
+    background-color: #007ACC;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: auto;
+}
+
+#name{
+    margin-top: 0px; 
+    font-size: 24px; 
+    color: black;
+}
+
+#profile_image{
+    margin-top: 50px;
+    border-radius: 70%;
+    border-color: black;
+    border-width: 100px;
+    object-fit: cover;
+    height: 150px;
+}
+
+/* About me */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#about_me_word{
+    font-size: 40px;
+}
+
+/* Skills */
+
+#skill_header{
+    font-size: 30px;
+}
+
+#skills{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#skills .skill-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.skill {
+    text-decoration: none;
+    padding: 10px 13px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #000000;
+    transition: background 0.4s, color 0.4s;
+}
+.skill:hover {
+    background: #000000;
+    color: white;
+    box-shadow: black;  
+}
+
+.Hr{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Projects */
+
+#Project_header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+
+#projects {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.project{ /* style of elements inside the dev */
+
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;                /* Enables Flexbox */
+    flex-direction: column;       /* Stacks the content vertically */
+    justify-content: center;      /* Centers the content horizontally */
+    align-items: center;          /* Centers the content vertically */
+    text-align: center;           /* Centers text inside the elements */
+    height: 300px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.project img {
+    height: 130px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+/* style of the contact me */
+
+
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact input, #contact textarea, #contact button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#contact button {
+    background: #ff758c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#contact button:hover {
+    background: #ff5c7a;
+}
+
+#contact_me_header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #000000;
+    color: #ffffff;
+}
